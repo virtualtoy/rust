@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UIControl>
+	<Image assetId="images/game_background.png" />
+	<Text x="10" y="10" text="R.U.S.T." />
+	<Text x="720" y="10" text="V.1.0" />
+	<Text x="310" y="565" text="(c) 2014 by Mikhail Kafanov" />
+	<Button name="startNewGameButton" x="10" y="358" text="Start new mission" />
+	<Button name="loadGameButton" x="10" y="398" text="Load mission" />
+	<Button name="helpButton" x="10" y="438" text="Help" />
+	<Button name="websiteButton" x="10" y="478" text="virtualtoy.me" />
+	<Button name="twitterButton" x="10" y="518" text="Twitter" />
+	<Button name="githubButton" x="10" y="558" text="GitHub" />
+</UIControl>

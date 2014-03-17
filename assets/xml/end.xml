@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UIControl>
+	<Overlay width="800" height="600" alpha="1" />
+	<Panel x="50" y="100" width="700" height="400">
+		<Text name="text" x="10" y="10" width="470" wordWrap="true" />
+		<Image name="image" x="490" y="10" />
+		<Button name="mainMenuButton" text="Main Menu" x="202" y="360" />
+	</Panel>
+</UIControl>

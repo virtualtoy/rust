@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UIControl>
+	<Overlay width="800" height="600" />
+	<Panel x="100" y="100" width="600" height="400">
+		<Text x="10" y="10" width="580" wordWrap="true" text="Access granted.&#10;What do you want to do now, little fella?" />
+		<Button name="finalChoiceButton_0" text="Unlock escape pods" x="10" y="280" />
+		<Button name="finalChoiceButton_1" text="Self-destruct &quot;Argo&quot;" x="10" y="320" />
+		<Button name="finalChoiceButton_2" text="Let PAL decide" x="10" y="360" />
+	</Panel>
+</UIControl>

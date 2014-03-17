@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UIControl>
+	<Text name="playerHealthText" x="10" y="10" />
+	<Text name="deviceDetectedText" visible="false" x="17" y="560" text="Non-standard device is detected nearby" />
+	<Text name="deviceDetectorUnavailableText" visible="false" x="5" y="560" text="Device detector fails due to interference" />
+	<Button name="menuButton" x="682" y="10" text="Menu" />
+</UIControl>

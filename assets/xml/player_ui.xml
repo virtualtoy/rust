@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UIControl>
+	<Overlay width="800" height="600" />
+	<Panel x="20" y="20" width="760" height="560">
+		<Text x="10" y="10" wordWrap="true" width="400" text="Robotic Unit R3-U3&#10;Status: Online" />
+		<Panel x="10" y="70" width="380" height="80">
+			<Text x="10" y="10" wordWrap="true" width="600" text="Memory Bank 1" />
+			<Button name="memoryBankButton_0" x="10" y="40" text="Connect" />
+		</Panel>
+		<Panel x="10" y="160" width="380" height="80">
+			<Text x="10" y="10" wordWrap="true" width="400" text="Memory Bank 2" />
+			<Button name="memoryBankButton_1" x="10" y="40" text="Connect" />
+		</Panel>
+		<Panel x="10" y="250" width="380" height="80">
+			<Text x="10" y="10" wordWrap="true" width="400" text="Memory Bank 3" />
+			<Button name="memoryBankButton_2" x="10" y="40" text="Connect" />
+		</Panel>
+		<Panel x="10" y="340" width="380" height="80">
+			<Text x="10" y="10" wordWrap="true" width="400" text="Memory Bank 4" />
+			<Button name="memoryBankButton_3" x="10" y="40" text="Connect" />
+		</Panel>
+		
+		<Text name="positionText" x="410" y="10" wordWrap="true" width="400" />
+		<Panel x="410" y="70" width="340" height="340">
+			<UIControl name="mapContainer" x="10" y="10" />
+		</Panel>
+		
+		<Text name="devicesText" x="410" y="420" wordWrap="true" width="400" />
+		
+		<Button name="saveButton" text="Save mission" x="10" y="440" />
+		<Button name="mainMenuButton" text="Terminate mission" x="10" y="480" />
+		<Button name="playerUICloseButton" text="Disconnect" x="10" y="520" />
+	</Panel>
+</UIControl>
